@@ -1,9 +1,9 @@
 Meta.DisplayName=ARK: Survival Ascended
-Meta.Description=ARK: Survival Ascended Dedicated Server with Server API option
+Meta.Description=ARK: Survival Ascended Dedicated Server with additional Settings as well as Greenlan's API selector.
 Meta.OS=Windows, Linux
 Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
-Meta.Author=Greelan, IceOfWraith
+Meta.Author=Muaddib
 Meta.URL=https://playark.com/
 Meta.DisplayImageSource=steam:2399830
 Meta.EndpointURIFormat=steam://connect/{0}
