@@ -1996,5 +1996,29 @@
             "False":"false",
             "True":"true"
         }
-    }
+    },
+    {
+        "DisplayName":"Baby Imprint Multiplier",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets the multiplier for how many imprints a baby should need.",
+        "Keywords":"maximum,imprint,baby,limit,maxnumberofplayersintribe",
+        "FieldName":"BabyImprintingStatScaleMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.BabyImprintingStatScaleMultiplier",
+        "DefaultValue":"1.5",
+        "Placeholder":"0",
+        "EnumValues":{}
+    },
 ]
+
+GlobalSpoilingTimeMultiplier=2.00000
+BabyImprintAmountMultiplier=25.00000
+MatingIntervalMultiplier=0.25000
+LayEggIntervalMultiplier=0.80000
+EggHatchSpeedMultiplier=4.00000
+BabyMatureSpeedMultiplier=4.00000
+BabyCuddleIntervalMultiplier=0.25000
+BabyCuddleGracePeriodMultiplier=1.00000
+BabyCuddleLoseImprintQualitySpeedMultiplier=1.00000
+BabyFoodConsumptionSpeedMultiplier=1.00000
