@@ -1998,6 +1998,20 @@
         }
     },
     {
+        "DisplayName":"Egg Hatching Multiplier",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets the multiplier for how how quickly eggs hatch.",
+        "Keywords":"maximum,imprint,baby,limit,egg,hatch,hatching",
+        "FieldName":"EggHatchSpeedMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.EggHatchSpeedMultiplier",
+        "DefaultValue":"4.0",
+        "Placeholder":"4.0",
+        "EnumValues":{}
+	{
+    },
+	{
         "DisplayName":"Baby Imprint Multiplier",
         "Category":"Breeding Multipliers",
         "Description":"Sets the multiplier for how many imprints a baby should need.",
@@ -2006,19 +2020,121 @@
         "InputType":"number",
         "MinValue":"0",
         "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.BabyImprintingStatScaleMultiplier",
-        "DefaultValue":"1.5",
+        "DefaultValue":"1.0",
+        "Placeholder":"1.0",
+        "EnumValues":{}
+    }
+	},
+	{
+        "DisplayName":"Baby Imprint Amount Multiplier",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets the multiplier for how many imprints a baby should need.",
+        "Keywords":"maximum,imprint,baby,limit",
+        "FieldName":"BabyImprintingStatScaleMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.BabyImprintAmountMultiplier",
+        "DefaultValue":"1.0",
+        "Placeholder":"1.0",
+        "EnumValues":{}
+    }
+	},
+	{
+        "DisplayName":"Mating Interval multiplier",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets the multiplier how quickly a dino can mate again.",
+        "Keywords":"maximum,imprint,baby,limit,mating",
+        "FieldName":"MatingIntervalMultiplierr",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.MatingIntervalMultiplier",
+        "DefaultValue":"0.25",
+        "Placeholder":"0.25",
+        "EnumValues":{}
+    }
+	},
+	{
+        "DisplayName":"Lay Egg Interval Multiplier",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets the multiplier for how frequent eggs are laid.",
+        "Keywords":"maximum,imprint,baby,limit,egg",
+        "FieldName":"LayEggIntervalMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.LayEggIntervalMultiplier",
+        "DefaultValue":"0.8",
         "Placeholder":"0",
         "EnumValues":{}
+	}
+    },
+	{
+        "DisplayName":"Baby Maturing Speed",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets the multiplier for how fast a baby matures.",
+        "Keywords":"maximum,imprint,baby,limit,egg",
+        "FieldName":"BabyMatureSpeedMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.BabyMatureSpeedMultiplier",
+        "DefaultValue":"4.0",
+        "Placeholder":"4.0",
+        "EnumValues":{}
+	}
+    },
+	{
+        "DisplayName":"Baby Cuddle Interval",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets the multiplier for how long between baby cuddles.",
+        "Keywords":"maximum,imprint,baby,limit,cuddle",
+        "FieldName":"BabyCuddleIntervalMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.BabyCuddleIntervalMultiplier",
+        "DefaultValue":"0.25",
+        "Placeholder":"0.25",
+        "EnumValues":{}
+	}
+    },
+	{
+        "DisplayName":"Baby Cuddle Grace Period",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets Grace period between cuddles.",
+        "Keywords":"maximum,imprint,baby,limit,cuddle",
+        "FieldName":"BabyCuddleGracePeriodMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.BabyCuddleGracePeriodMultiplier",
+        "DefaultValue":"1.0",
+        "Placeholder":"1.0",
+        "EnumValues":{}
+	}
+    },
+	{
+        "DisplayName":"Baby Cuddle Grace Period",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets Grace period between cuddles.",
+        "Keywords":"maximum,imprint,baby,limit,cuddle",
+        "FieldName":"BabyCuddleLoseImprintQualitySpeedMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.BabyCuddleLoseImprintQualitySpeedMultiplier",
+        "DefaultValue":"1.0",
+        "Placeholder":"1.0",
+        "EnumValues":{}
+	}
+    },
+	{
+        "DisplayName":"Baby Food Consumption Multiplier",
+        "Category":"Breeding Multipliers",
+        "Description":"Sets how quickly babies lose food.",
+        "Keywords":"maximum,imprint,baby,limit,food",
+        "FieldName":"BabyFoodConsumptionSpeedMultiplier",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/ShooterGame.ShooterGameMode.BabyFoodConsumptionSpeedMultiplier",
+        "DefaultValue":"1.0",
+        "Placeholder":"1.0",
+        "EnumValues":{}
+	}
     },
 ]
-
-GlobalSpoilingTimeMultiplier=2.00000
-BabyImprintAmountMultiplier=25.00000
-MatingIntervalMultiplier=0.25000
-LayEggIntervalMultiplier=0.80000
-EggHatchSpeedMultiplier=4.00000
-BabyMatureSpeedMultiplier=4.00000
-BabyCuddleIntervalMultiplier=0.25000
-BabyCuddleGracePeriodMultiplier=1.00000
-BabyCuddleLoseImprintQualitySpeedMultiplier=1.00000
-BabyFoodConsumptionSpeedMultiplier=1.00000
