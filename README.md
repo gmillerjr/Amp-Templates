@@ -1,4 +1,5 @@
 # Amp Templates
- Templates for the Amp Console
+ Ark SA Amp template proposals
 
 # Work In Progress
+Currently working on breeding tab to assist with settings related to baby growth.
