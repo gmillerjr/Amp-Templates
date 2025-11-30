@@ -944,6 +944,21 @@
             "True": "-AllowSpeedLeveling "
         }
     },
+	{
+        "DisplayName": "Allow Flyer Speed Levelling",
+        "Category": "ARK SA:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, flyers can have their movement speed levelled up.",
+        "Keywords": "player,flyer,movement,speed,level,up,allowspeedleveling",
+        "FieldName": "AllowFlyerSpeedLeveling",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/ShooterGame.ShooterGameMode.bAllowFlyerSpeedLeveling",
+        "DefaultValue": "False",
+        "EnumValues": {
+            "False": "False",
+            "True": "True"
+        }
+    },
     {
         "DisplayName": "Allow Cave Flyers",
         "Category": "ARK SA:stadia_controller",
