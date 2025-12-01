@@ -950,7 +950,7 @@
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If set, flyers can have their movement speed levelled up.",
         "Keywords": "player,flyer,movement,speed,level,up,allowspeedleveling",
-        "FieldName": "AllowFlyerSpeedLeveling",
+        "FieldName": "bAllowFlyerSpeedLeveling",
         "InputType": "checkbox",
         "ParamFieldName": "/Script/ShooterGame.ShooterGameMode.bAllowFlyerSpeedLeveling",
         "DefaultValue": "False",
