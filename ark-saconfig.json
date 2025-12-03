@@ -48,12 +48,14 @@
         "ParamFieldName": "Map",
         "DefaultValue": "TheIsland_WP",
         "EnumValues": {
-            "TheIsland_WP": "The Island (default)",
+			"TheIsland_WP": "The Island (default)",
             "ScorchedEarth_WP": "Scorched Earth",
             "TheCenter_WP": "The Center",
             "Aberration_WP": "Aberration",
             "Extinction_WP": "Extinction",
             "Astraeos_WP": "Astraeos",
+            "Ragnarok_WP": "Ragnarok",
+            "Valguero_WP": "Valguero",
             "{{CustomMap}}": "--Custom--"
         }
     },
